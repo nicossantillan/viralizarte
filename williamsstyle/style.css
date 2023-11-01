@@ -1,0 +1,78 @@
+
+main >img{
+
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+main section div img{
+    width: 50%;
+}
+main section div h2{
+    font-size: 0.8em;
+}
+
+main section p{
+    font-size: 0.6em;
+    padding: 0.3rem 0;
+
+}
+
+main section{
+    margin: 1.8em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+
+main section div{
+    width: 50%;
+}
+
+
+@media (min-width: 768px){
+
+    main section div h2{
+        font-size: 1.3em;
+    }
+    
+    main section p{
+        font-size: 1em;
+        padding: 1.3rem 0;
+    
+}
+main section:nth-of-type(1){
+    margin-top: 3rem;
+    }
+
+    
+main section{
+margin-bottom: 5rem;
+}
+
+main section div img{
+    width: 50%;
+   margin-left: 5vw;
+}
+}
+
+
+@media (min-width: 1100px){
+
+
+    main section div:nth-of-type(2){
+margin-top: 5rem;
+}
+
+
+main >img{
+
+height: 40vw;
+    object-fit: cover;
+
+}
+
+}
